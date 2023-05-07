@@ -1,0 +1,95 @@
+.checkout-con{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    // background-color: aquamarine;
+
+    .box{
+
+        width: 70%;
+        display: flex;
+        // justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+
+        border:  10px solid #f6f2ec;
+        padding: 20px;
+       
+
+        .titles{
+            display: flex;
+            flex-direction: row;
+           justify-content: space-between;
+           align-items: center;
+           width: 100%;
+
+
+           .Article{
+            width: 40%;
+            text-align: left;
+           }
+
+        }
+        .conconcon{
+            width: 100%;
+            .item{
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                justify-content: space-between;
+                padding: 10px;
+    
+                .image{
+                    img{
+                        width: 80px;
+                    }
+                }
+    
+                .info{
+                    width: 40%;
+                    padding: 10px;
+                    text-align: left;
+                    // background-color: red;
+                }
+            }
+        }
+
+
+        .footerr{
+            display: flex;
+            flex-direction: row;
+
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            margin-top: 50px;
+
+            .delivery{
+                width: 50%;
+                text-align: center;
+            }
+
+            .btn{
+                width: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                button{
+                    border: none;
+                    outline: none;
+                    padding: 15px 40px;
+                    background-color: #D1a648;
+                    color: white;
+                }
+            }
+        }
+        
+    }
+}
+
+.w-10{
+    width: 10%;
+    text-align: center;
+}

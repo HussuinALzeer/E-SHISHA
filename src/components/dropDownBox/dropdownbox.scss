@@ -1,0 +1,53 @@
+.dropdownboxCon{
+    position: absolute;
+    top: 105%;
+    left: 5%;
+    width: 90%;
+    background-color: white;
+
+    border-bottom: 3px solid #d1a648;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 1px 16px 43px 8px rgba(0,0,0,0.55);
+
+
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    opacity: 0;
+    visibility: hidden;
+    transition: 1s ease-in-out;
+    z-index: 1000;
+    gap: 10px !important;
+    &.active{
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px;
+        cursor: pointer;
+        // background-color: red;
+        width: 200px;
+
+        
+        img{
+        
+            object-fit: contain;
+            height: 170px !important;
+        
+        }
+
+        .text{
+            text-align: center;
+            font-size: 1rem;
+            font-weight: 400;
+            letter-spacing: 1px;
+            text-transform: capitalize;
+        }
+    }
+    
+}

@@ -1,0 +1,116 @@
+.footer{
+    margin-top: 150px;
+    position: relative;
+    .tags{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #404040;
+        padding: 10px;
+        padding-right: 50px;
+        padding-left: 50px;
+
+
+        .tag{
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            
+
+            .icon{
+                padding: 20px;
+                svg{
+                    font-size: 2rem;
+                    color: #d1a648;
+                }
+            }
+
+            .text{
+                font-weight: 400;
+                h3{
+                    font-weight: 400;
+                    font-size: 1rem;
+                }
+                p{
+                    font-size: 0.8rem;
+                }
+            }
+        }
+    }
+
+    .links{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center !important;
+        width: 100%;
+        background-color: #333333;
+        color: white;
+
+        .link{
+            width: 25%;
+
+            img{
+                width: 200px;
+            }
+           
+            li{
+                list-style: none;
+                margin-top: 10px;
+                transition: .3s ease-in-out;
+                font-weight: 300;
+                letter-spacing: 1px;
+                text-transform: capitalize;
+               font-size: 0.9rem;
+            }
+
+            .hover{
+                cursor: pointer;
+                &:hover{
+                    color: #d1a648;
+
+                }
+            }
+            h3{
+                color: #d1a648;
+            }
+
+            .line{
+                width: 100px;
+                height: 1.5px;
+                background-color: #d1a648;
+            
+            }
+
+
+            .Subscribe{
+
+                input{
+                    padding: 9px 10px;
+                    border: 1px solid #d1a648;
+                    outline: none;
+                    background-color: #333333;
+                    color: #d1a648;
+
+                    &::placeholder{
+                        color: #d1a648;
+                    }
+                }
+                button{
+                    padding: 10px;
+                    border: none;
+                    outline: none;
+                    color: white;
+                    background-color: #d1a648;
+                }
+            }
+            
+        }
+    }
+
+}
